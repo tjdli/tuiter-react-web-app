@@ -1,0 +1,17 @@
+* body {
+    background-color: black;
+}
+
+* ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.wd-page {
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+}
+
+.wd-content {
+    margin-left: 16px;
+}
