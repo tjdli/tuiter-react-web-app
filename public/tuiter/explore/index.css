@@ -1,80 +1,40 @@
-.wd-search-bar input {
-    height: 100%;
-    text-align: left;
-    padding-left: 10px;
-    border-radius: 20px;
-    width: 90%;
-    background-color: darkgrey;
-    color: white;
-    padding-top: 5px;
-    padding-bottom: 5px;
+@import url("https://fonts.cdnfonts.com/css/chirp-2");
+
+* {
+    font-family: 'Chirp', sans-serif;
 }
 
-.wd-search-bar input::placeholder {
-    color: white;
+/* Extra Extra Large Devices (larger than 1440px) */
+@media (min-width: 1440px) {
+    .wd-tabs {
+        font-size: 0.85vw;
+    }
 }
 
-.wd-search-bar a {
-    font-size: 1vw;
-    padding-left: 12px;
-    text-decoration: none;
-    width: 10%;
+/* Extra Large Devices (larger than 1200px) */
+@media (max-width: 1200px) {
+    .wd-tabs {
+        font-size: 0.85vw;
+    }
 }
 
-.wd-tabs ul {
-    display: flex;
-    list-style-type: none;
-    color: rgb(110, 118, 125);
+/* Large Devices (larger than 992px) */
+@media (max-width: 992px) {
+    .wd-tabs {
+        font-size: 0.95vw;
+    }
 }
 
-.wd-tabs ul li {
-    font-size: 15px;
-    padding: 16px;
+/* Medium Devices (larger than 768px) */
+@media (max-width: 768px) {
+   .wd-tabs {
+        font-size: 0.95vw;
+    }
 }
 
-.wd-tabs .wd-special-highlighted {
-    color: rgb(29, 161, 242);
-    border-bottom-style: solid;
-}
-
-.wd-topics ul {
-    list-style-type: none;
-}
-
-.wd-topics ul li {
-    height: 130px;
-    border-top-style: solid;
-    border-color: rgb(47, 51, 54);
-}
-
-.wd-topics ul li div {
-    margin-left: 16px;
-}
-
-.wd-topics p {
-    font-size: 13px;
-    color: rgb(110, 118, 125);
-}
-
-.wd-topics h2 {
-    font-size: 15px;
-    color: white;
-}
-
-.wd-topics .wd-author {
-    font-size: 14px;
-    color: white;
-}
-
-.wd-topics .wd-author span {
-    font-size: 13px;
-    color: rgb(110, 118, 125);
-}
-
-.wd-topics img {
-    width: 100px;
-    height: 100px;
-    float: right;
-    margin-right: 16px;
-    border-radius: 15px;
+/* Small Devices (larger than 576px) */
+@media (max-width: 576px) {
+    .wd-tabs {
+        font-size: 0.95vw;
+    }
 }
