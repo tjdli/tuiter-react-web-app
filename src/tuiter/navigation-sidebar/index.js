@@ -1,63 +1,66 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const NavigationSidebar = ({ active = "explore" }) => {
   return (
     <div>
       <div className="list-group">
-        <a className="list-group-item">
-          <i class="bi bi-twitter"></i>
-        </a>
-        <a
+        <Link className="list-group-item">
+          <i className="bi bi-twitter"></i>
+        </Link>
+        <Link
           className={`list-group-item
                     ${active === "home" ? "active" : ""}`}
+          to="/tuiter"
         >
-          <i class="bi bi-house-fill"></i> Home
-        </a>
-        <a
+          <i className="bi bi-house-fill"></i> Home
+        </Link>
+        <Link
           className={`list-group-item
                     ${active === "explore" ? "active" : ""}`}
+          to="/tuiter/explore/"
         >
-          <i class="bi bi-hash"></i> Explore
-        </a>
-        <a
+          <i className="bi bi-hash"></i> Explore
+        </Link>
+        <Link
           className={`list-group-item
                     ${active === "notifications" ? "active" : ""}`}
         >
-          <i class="bi bi-bell-fill"></i> Notifications
-        </a>
-        <a
+          <i className="bi bi-bell-fill"></i> Notifications
+        </Link>
+        <Link
           className={`list-group-item
                     ${active === "messages" ? "active" : ""}`}
         >
-          <i class="bi bi-envelope-fill"></i> Messages
-        </a>
-        <a
+          <i className="bi bi-envelope-fill"></i> Messages
+        </Link>
+        <Link
           className={`list-group-item
                     ${active === "bookmarks" ? "active" : ""}`}
         >
-          <i class="bi bi-bookmark-fill"></i> Bookmarks
-        </a>
-        <a
+          <i className="bi bi-bookmark-fill"></i> Bookmarks
+        </Link>
+        <Link
           className={`list-group-item
                     ${active === "lists" ? "active" : ""}`}
         >
-          <i class="bi bi-list-ul"></i> Lists
-        </a>
-        <a
+          <i className="bi bi-list-ul"></i> Lists
+        </Link>
+        <Link
           className={`list-group-item
                     ${active === "profile" ? "active" : ""}`}
         >
-          <i class="bi bi-person-fill"></i> Profile
-        </a>
-        <a
+          <i className="bi bi-person-fill"></i> Profile
+        </Link>
+        <Link
           className={`list-group-item
                     ${active === "more" ? "active" : ""}`}
         >
-          <i class="bi bi-three-dots"></i> More
-        </a>
+          <i className="bi bi-three-dots"></i> More
+        </Link>
       </div>
-      <div class="d-grid mt-2">
-        <a href="tweet.html" class="btn btn-primary btn-block rounded-pill">
+      <div className="d-grid mt-2">
+        <a href="tweet.html" className="btn btn-primary btn-block rounded-pill">
           Tweet
         </a>
       </div>

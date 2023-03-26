@@ -1,0 +1,44 @@
+[
+  {
+    "_id": 234,
+    "topic": "Space",
+    "userName": "SpaceX",
+    "time": "2h",
+    "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
+    "image": "spacex.png",
+    "liked": true,
+    "replies": 123,
+    "retuits": 432,
+    "likes": 2345,
+    "handle": "@spacex",
+    "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
+  },
+  {
+    "_id": 1234,
+    "topic": "Electric Cars",
+    "userName": "Tesla",
+    "time": "1h",
+    "title": "Tesla Model S Plaid sets new record for fastest production car",
+    "image": "tesla.png",
+    "liked": false,
+    "replies": 56,
+    "retuits": 23,
+    "likes": 789,
+    "handle": "@Tesla",
+    "tuit": "The only way to accelerate the transition to sustainable energy is if electric cars are objectively better than gasoline cars in every way. That's why Tesla is relentlessly focused on making the best electric cars."
+  },
+  {
+    "_id": 5678,
+    "topic": "Space",
+    "userName": "Virgin Galactic",
+    "time": "30m",
+    "title": "Virgin Galactic's SpaceShipTwo completes successful suborbital flight",
+    "image": "virgin.svg",
+    "liked": true,
+    "replies": 34,
+    "retuits": 12,
+    "likes": 456,
+    "handle": "@virgingalactic",
+    "tuit": "We're on a mission to democratize space, making it accessible and affordable for all. Our goal is to open up space for the next generation of dreamers."
+  }
+]
