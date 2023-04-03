@@ -42,7 +42,7 @@ const TuitStats = ({ tuit }) => {
       </span>
       <span className="col-2">
         <span onClick={() => toggleTuitDislike(tuit)}>
-          {tuit.liked ? (
+          {tuit.disliked ? (
             <i className="bi bi-hand-thumbs-down-fill text-danger"></i>
           ) : (
             <i className="bi bi-hand-thumbs-down-fill"></i>
