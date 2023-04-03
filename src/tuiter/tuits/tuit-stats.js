@@ -48,7 +48,7 @@ const TuitStats = ({ tuit }) => {
             <i className="bi bi-hand-thumbs-down-fill"></i>
           )}
         </span>{" "}
-        {tuit.likes}
+        {tuit.dislikes}
       </span>
       <span className="col-1">
         <i className="bi bi-share"></i> {tuit.replies}
